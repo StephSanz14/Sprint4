@@ -1,0 +1,10 @@
+img{
+    width: 200px;
+}
+
+.botones{
+    width: 50px;
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+}
