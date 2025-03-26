@@ -1,4 +1,3 @@
-<p>newimage-form works!</p>
 <!-- Modal -->
 <div class="modal fade" [id]="modalID" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -16,7 +15,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-primary" (click)="saveImage()">Guardar Cambios</button>
         </div>
       </div>
     </div>

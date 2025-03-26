@@ -30,9 +30,10 @@ private storageKey = 'images';
     localStorage.setItem(this.storageKey,JSON.stringify(images));
   }
 
-  deleteImageByID(id_image:number):void{
+  deleteImageByID(id_image:number):void{ 
     let images=this.getImages();
     images=images.filter(img=>img.id_image!==id_image)
     localStorage.setItem(this.storageKey, JSON.stringify(images));
+    console.log("si estoy funcionando");
   }
 }

@@ -32,6 +32,7 @@ export class NewimageFormComponent {
   saveImage(){
     if(!this.imgUrl || !this.imageName){
       alert('Selecciona una imagen antes de guardar.');
+      
       return;
     }
     this.imgService.saveImage(this.imageName, this.imgUrl);
